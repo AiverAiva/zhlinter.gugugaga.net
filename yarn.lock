@@ -1912,9 +1912,9 @@ victory-vendor@^36.6.8:
     d3-timer "^3.0.1"
 
 zhlinter@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/zhlinter/-/zhlinter-1.0.5.tgz#7a269643c1b712f073e0151a3f11164e6f577c83"
-  integrity sha512-lPHjJ2eMvEIGVMb44NrZxxO7iPRi/rh0Vf6m2sqhIyoD6xu655Wed9X/e2PLOlVAiyDaUoCPGLtD8tsvyzstEg==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/zhlinter/-/zhlinter-1.0.7.tgz#e46f73839633890d144c02dd6acf4885aa1aa167"
+  integrity sha512-nIKld6PSkPhUfRe5g/ScXY0R67+Y21g2HImYTjE3/I9NhVIAlH1EJG/21uZhhd+7yYv5qGApxRPDIDFqeRNRug==
 
 zod@3.25.76:
   version "3.25.76"

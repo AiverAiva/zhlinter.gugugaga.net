@@ -5,7 +5,7 @@ import { Copy, Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { cn } from "@/lib/utils"
-import { normalizeText } from "zhlinter";
+import { normalizeParagraphs } from "zhlinter";
 
 interface DiffPart {
   type: "added" | "removed" | "unchanged"
@@ -79,7 +79,7 @@ export function TextNormalizer() {
 
   React.useEffect(() => {
     if (input) {
-      const normalized = normalizeText(input)
+      const normalized = normalizeParagraphs(input)
       setOutput(normalized)
       setDiff(calculateDiff(input, normalized))
     } else {
